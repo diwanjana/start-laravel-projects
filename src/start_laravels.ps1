@@ -148,6 +148,3 @@ Start-Process -FilePath "powershell"
 
 echo "Starting server..."
 php artisan serve --port=$port
-
-# Compile command
-# Invoke-ps2exe -inputFile '.\src\start_laravels.ps1'  -outputFile '..\dist\Start Laravels.exe' -iconFile '.\src\laravel.ico'
